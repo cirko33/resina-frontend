@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="assets/logo/logo.png" alt="Logo" height="18px" />
+      </div>
+      <div class="links">
+        <a href="#home">POČETNA</a>
+        <a href="#about">O NAMA</a>
+        <a href="#contact">KONTAKT</a>
+      </div>
+
+      <!-- Hamburger Menu Button -->
+      <div class="hamburger" id="hamburger">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3 6H21V8H3V6ZM3 11H21V13H3V11ZM3 16H21V18H3V16Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <div class="mobile-nav" id="mobile-nav">
+        <a href="#home">POČETNA</a>
+        <a href="#about">O NAMA</a>
+        <a href="#contact">KONTAKT</a>
+      </div>
+    </nav>
+
+    <div class="background-container">
+      <img
+        src="assets/moving/1.jpg"
+        alt="Background 1"
+        class="bg-img"
+        style="opacity: 1"
+      />
+      <img src="assets/moving/2.jpg" alt="Background 2" class="bg-img" />
+      <img src="assets/moving/3.jpg" alt="Background 3" class="bg-img" />
+      <img src="assets/moving/4.jpg" alt="Background 4" class="bg-img" />
+      <img src="assets/moving/5.jpg" alt="Background 5" class="bg-img" />
+    </div>
+
+    <div class="overlay"></div>
+
+    <img src="assets/logo/logo.png" class="title" />
+
+    <section id="home"></section>
+    <section id="about">
+      <div class="section-title">O nama</div>
+      <div class="section-div">
+        <img
+          src="assets/about/about.jpg"
+          alt="About us"
+          class="section-img"
+          width="50%"
+        />
+
+        <div class="section-text">
+          Lorem ipsum odor amet, consectetuer adipiscing elit. Egestas mattis
+          dis cursus vehicula nec dictumst praesent parturient. Sociosqu integer
+          varius arcu viverra amet ultricies. Ipsum mus interdum cras risus
+          auctor mauris et nulla ligula. Pellentesque interdum litora ultricies
+          molestie cubilia.
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="section-title">Kontakt</div>
+      <div class="section-div">
+        <div class="section-text">
+          <div>
+            Telefon: +381654214444 <br />
+            Adresa: Branka Ćopića 33, Novi Sad, Srbija <br />
+            Email: info@resina.com
+          </div>
+          <div class="socials">
+            <a href="https://www.instagram.com/resina_tables">
+              <img
+                id="instagram"
+                src="assets/socials/instagram.png"
+                width="100px"
+                height="100px"
+              />
+            </a>
+            <a
+              href="https://wa.me/+381654214444?text=Pozdrav,+voleo+bih+vise+da+cujem+o+vasim+ponudama+za+izradu+stolova"
+            >
+              <img
+                id="whatsapp"
+                src="assets/socials/whatsapp.png"
+                width="100px"
+                height="100px"
+              />
+            </a>
+          </div>
+        </div>
+        <div>
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.565569360989!2d19.795849376596898!3d45.23635494861162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b0e2aa19159c7%3A0xe1443b16339e9606!2z0JHRgNCw0L3QutCwINCL0L7Qv9C40ZvQsCAzMywg0JLQtdGC0LXRgNC90LjQug!5e0!3m2!1ssr!2srs!4v1728060705760!5m2!1ssr!2srs"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-text">© 2024 Resina. Sva prava zadržana.</div>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
